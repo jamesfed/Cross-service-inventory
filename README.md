@@ -1,8 +1,8 @@
 # Cross-service-inventory
-A project to identify if devices appear in multiple inventory (or security agent) systems with a simple PowerShell script. Starting with Lansweeper, Sophos, and Heimdal.
+A project to identify if devices appear in multiple inventory (or security agent) systems with a simple PowerShell script. Starting with Lansweeper, Sophos, Microsoft Active Directory, Microsoft Intune, and Heimdal.
 
 # Introduction
-Taking inspiration from CIS Critical Security Controls 1 & 2 this script takes CSV exports from the [Lansweeper](https://www.lansweeper.com/), [Sophos](https://www.sophos.com/), and [Heimdal](https://heimdalsecurity.com/) management consoles to then determine what systems a unique hostname is missing from.
+Taking inspiration from CIS Critical Security Controls 1 & 2 this script takes CSV exports from the [Lansweeper](https://www.lansweeper.com/), [Sophos](https://www.sophos.com/), Microsoft Active Directory, Microsoft Intune, and [Heimdal](https://heimdalsecurity.com/) management consoles to then determine what systems a unique hostname is missing from.
 
 https://www.cisecurity.org/controls/inventory-and-control-of-enterprise-assets
 https://www.cisecurity.org/controls/inventory-and-control-of-software-assets
